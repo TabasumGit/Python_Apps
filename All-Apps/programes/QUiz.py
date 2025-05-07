@@ -23,4 +23,4 @@ for index, question in enumerate(data):
         result ='Wrong Answer'
     message = f" {index + 1} {result} - Your answer : {question['user_choice']}, "   f"Correct answer : {question['correct_answer']}"
     print(message)
-print(score, '/', len(data))
+print('The score is ', score, '/', len(data))
